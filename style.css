@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+main{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.first-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-flow: row wrap;
+    outline: 10px solid rgb(191, 191, 191);
+    width: 300px;
+    height: 300px;
+    border-top: 10px solid #4f4e4e;
+    border-bottom: 10px solid rgb(201, 199, 199);
+    border-right: 10px solid rgb(201, 199, 199); 
+    border-left: 10px solid #4f4e4e;  
+     background-color: #a7a6a6;
+}
+
+.one{
+    display: flex;
+    width: 12.5%;
+    height: 12.5%;
+    border: 2px dotted black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(10, 29, 169);
+    font-size:1.7em ;
+}
+.two{
+    display: flex;
+    width: 12.5%;
+    height: 12.5%;
+    border: 2px dotted black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(25, 135, 2);
+    font-size:1.7em ;
+}
+.three{
+    display: flex;
+    width: 12.5%;
+    height: 12.5%;
+    border: 2px dotted black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(206, 3, 3);
+    font-size:1.7em ;
+}
+
+.bomb{
+    display: flex;
+    width: 12.5%;
+    height: 12.5%;
+    border: 2px dotted black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: normal;
+    font-style:normal;
+    font-size:1.4em ;
+}
+
+.empty{
+    display: flex;
+    width: 12.5%;
+    height: 12.5%;
+    border: 2px dotted black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(191, 191, 191);
+    border-right:3.7px dotted black;
+    border-bottom: 3.7px dotted black;
+}
+.hide {
+    width: 100%;
+    height: 100%;
+    border-right: 5px rgb(128, 128, 128) solid;
+    border-bottom: 5px rgb(128, 128, 128) solid;
+    border-left: 5px rgb(212, 212, 212) solid;
+    border-top: 5px rgb(212, 212, 212) solid;
+    outline: 3.7px solid rgb(25, 25, 25);
+}
+
